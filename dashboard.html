@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <h2>Dashboard</h2>
+    
+    <div class="feature">
+        <h3>Add New Student Data</h3>
+        <form>
+            <div class="form-group">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+            </div>
+            <div class="form-group">
+                <label for="rollNo">Roll No:</label>
+                <input type="text" id="rollNo" name="rollNo" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Add Student</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="feature">
+        <h3>Take/Check Attendance</h3>
+        <button id="takeAttendance">Take Attendance</button>
+        <button id="checkAttendance">Check Attendance</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

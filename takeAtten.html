@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Attendance</title>
+    <link rel="stylesheet" href="css/atten.css">
+</head>
+<body>
+
+<div class="take-attendance-container">
+    <h2>Take Attendance</h2>
+
+    <div class="video-container">
+        <video id="video" playsinline autoplay muted></video>
+    </div>
+
+    <div class="camera-prompt" id="cameraPrompt">
+        <p>Click 'Start' to begin taking attendance.</p>
+    </div>
+
+    <div class="buttons">
+        <button id="startButton">Start</button>
+        <button id="stopButton" disabled>Stop</button>
+    </div>
+</div>
+
+<script src="js/atten.js"></script>
+</body>
+</html>
